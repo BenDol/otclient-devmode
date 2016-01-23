@@ -1,0 +1,2 @@
+# otclient-devmode
+DevMode Module
