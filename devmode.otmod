@@ -1,0 +1,14 @@
+Module
+  name: devmode
+  description: Devmode Mod
+  author: Ben Dol
+  website: https://github.com/BenDol
+  version: 1.0
+
+  autoload: true
+  autoload-priority: 1000
+  sandbox: true
+  scripts: [ devmode ]
+
+  @onLoad: init()
+  @onUnload: terminate()

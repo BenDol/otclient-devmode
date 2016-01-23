@@ -1,0 +1,22 @@
+MainWindow
+  id: window
+  !text: tr('DevMode')
+  size: 145 320
+  focusable: false
+  @onEscape: hide()
+
+  Panel
+    id: content
+    anchors.fill: parent
+    margin: 4
+
+    Panel
+      id: reloads
+      width: 100
+      anchors.left: parent.left
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      margin: 2
+      layout:
+        type: verticalBox
+        spacing: 2
